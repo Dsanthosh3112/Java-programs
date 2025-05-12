@@ -1,0 +1,17 @@
+import java.util.Arrays;
+
+public class SortArray {
+    public static void main(String[] args) {
+        // Initialize an unsorted array
+        int[] arr = {5, 3, 8, 1, 2, 7};
+        
+        // Display original array
+        System.out.println("Original Array: " + Arrays.toString(arr));
+        
+        // Sort the array using Arrays.sort() method
+        Arrays.sort(arr);
+        
+        // Display the sorted array
+        System.out.println("Sorted Array: " + Arrays.toString(arr));
+    }
+}
